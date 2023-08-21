@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap');
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    color: blanchedalmond;
+    align-content: center;
+}
+
+body .page{
+    margin: 20px 80px;
+
+}
+
+/* Barre de navigation */
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color:black;
+    padding: 10px 0px;
+
+}
+nav {
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: 10px;
+}
+nav .onglets a{
+    margin: 20px ;
+    margin-right: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+nav .buttons button{
+    padding: 13px 14px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+}
+nav .login{
+    margin: 0px;
+    background-color: inherit;
+    margin-right: 10px;
+    color: #8f8f8f;
+
+}
+nav .buttons .register{
+    background-color:#f54266;
+    margin-right: 10px;
+    color: white;
+}
+/* Fin de la barre de navigation */
+
+/* Partie header */
+header{
+    margin-top: 40px;
+    background: url('https://fr.wikipedia.org/wiki/Google_Images#/media/Fichier:Google_Images_2015_logo.svg');
+
+}   
+header h1{
+    text-align: center;
+    font-size: 60px;
+    padding: 150px;
+}
+/* Fin de la partie header */
+
+body {
+    text-align: center;
+}
+
+.buttons {
+    border:none;
+    margin: 50px;
+    border-radius: 100px;
+}
+
+nav {
+    border-radius: 20px;
+}
+
+button {
+    border-radius: 100px;
+}
+
+nav a {
+    margin-right: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #f54266;
+}
+body {
+    text-align: center;
+}
+
+div p {
+    text-align: left;
+}
